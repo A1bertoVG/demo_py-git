@@ -1,10 +1,10 @@
-  # Demo succes?
+  # Demo
 
 In order to learn how to upload Programs to Github, I used this video:
 https://www.youtube.com/watch?v=RGOj5yH7evk
 During the video some commands where different between Mac/Linux & Windows, so here you can find the equivalent commands for 
 terminal in Windows. 
-Also, if you want to use the commands like in the video, then its better if you use `Gitbash` which should be already installed in you desktop, just type the windows icon and search it.
+Also, if you want to use the commands like in the video, then its better if you use `Gitbash` which should be already installed in your desktop, just type the windows icon and search it.
 
 
 ## Commands I've used in Terminal
