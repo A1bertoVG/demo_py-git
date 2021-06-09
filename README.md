@@ -9,17 +9,37 @@ Also, if you want to use the commands like in the video, then its better if you 
 
 ## Commands I've used in Terminal
 
-#### git ls-files 
+`git ls-files`
 to show the documents inside the File
 
-#### cls 
+`cls` 
 to clear / clean the Terminal
 
-#### git add [name of document]
-to add modifications on that file or...
+## Git commands
 
-#### git add . 
-to add all modification in every document.
+By order of use, first I have `status`, in order to see wich files have been modified and if the modifications have been uploaded.
 
-#### git status
+`git status`
 to check the status of the files if are modified or not.
+
+In order to upload the modification, we will use `add` and there are two ways of using it:
+
+`git add [name of document]`
+to add modifications in a specific file or...
+
+`git add .` 
+to add modification in all the documents.
+
+After that we can ``status`` use again and the name of the file now should be green.
+Now we are ready to commit, to "save the changes".
+
+`git commit -m "Name for the modification (up to you)" -m "Any comment about it"` here the first `-m "Name"` is obligatory in order to save it, but the order one (the comment) you can skip it.
+
+Then we are ready to upload it in Github, for this we use:
+
+`git push` after this one, we can reaload Github in the Navigator and chanes will appear.
+
+###### important note: if is the first time using ``git`` then is necesary to set a `SSH KEY`
+https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent 
+
+Here is the info and is better using ``Git Bash`` for the commands.
