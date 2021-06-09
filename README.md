@@ -9,10 +9,13 @@ Also, if you want to use the commands like in the video, then its better if you 
 
 ## Commands I've used in Terminal
 
-`git ls-files`
-to show the documents inside the File
+`git ls-files`(Windows) `git la -la` (Linux/Mac)
 
-`cls` 
+to show the documents inside the File.
+
+
+`cls` (Windows) `clear` (Linux/Mac)
+
 to clear / clean the Terminal
 
 ## Git commands
@@ -43,3 +46,6 @@ Then we are ready to upload it in Github, for this we use:
 https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent 
 
 Here is the info and is better using ``Git Bash`` for the commands.
+
+`git config --global user.email "you@example.com"` used to set your account in Github and be able to sync.
+Also can use `git config --global user.name "github_username"` so use Username instead of email.
