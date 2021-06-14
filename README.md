@@ -56,3 +56,21 @@ Also can use `git config --global user.name "github_username"` so use Username i
 `git checkout -b [name of what will you do]`
 
 `git checkout [branch name]` to switch to that branch.
+
+`git diff [branch name]` it shows the changes on that branch.
+
+`git branch -d [branch name]` delete the selected branch
+
+`git commit -am "message"` it does the ``commit`` and the ``add`` function at the same time (just when was a modification)
+
+## Undoing in Git
+
+`git reset` reset the function before that line.
+
+`git reset HEAD~1` is specific to the last commit one before
+
+`git log` show all the commits made, using the hashes can go back to that commit
+
+example `git log 5ca7622e88246fd76a95213049bb9b8722010e99 `
+
+`git reset --hard [hash]` delete several commits untill that hash. 
