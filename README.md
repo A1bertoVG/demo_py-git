@@ -49,3 +49,10 @@ Here is the info and is better using ``Git Bash`` for the commands.
 
 `git config --global user.email "you@example.com"` used to set your account in Github and be able to sync.
 Also can use `git config --global user.name "github_username"` so use Username instead of email.
+
+## Branches
+`git branch` muestras las ramas disponibles.
+
+`git checkout -b [name of what will you do]`
+
+`git checkout [branch name]` to switch to that branch.
